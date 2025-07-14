@@ -325,3 +325,16 @@ font-weight: 700    ;}
     font-weight: 400;
     font-size: 16px;
 }
+
+
+
+
+.hebergements img {
+    width: 250.33px;
+    height: 124px;
+}
+
+.herbergements-cards {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
