@@ -257,3 +257,71 @@ button.btn {
     
 
 
+/*filtre*/
+
+section.zonecherchable {
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+form.Filtre {
+    display: flex;
+    gap: 10px;
+}
+
+
+.Filtre label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+    border-width: 2px;
+    gap: 10px;
+    border-radius: 35px;
+    padding-top: 4px;
+    padding-right: 19px;
+    padding-bottom: 4px;
+    padding-left: 19px;
+    border: 2px solid #D9D9D9;
+    height: 50px;
+    
+}
+.Filtre label:hover {
+background-color: #DEEBFF
+}
+
+.Filtre input[type="radio"] {
+  display: none;
+}
+
+.Filtre span {
+    margin-bottom: 0    ;
+    font-weight: 700    ;
+    font-size: 17px;
+}
+
+.infobar {
+    margin-bottom: 40px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+font-size: 18px;
+font-weight: 700    ;}
+
+
+
+
+   .infobar {
+    display: flex;
+    gap: 10px;
+}
+
+.infobar img {width: 24px;height: 24px;}
+
+.inforbar span {
+    font-weight: 400;
+    font-size: 16px;
+}
