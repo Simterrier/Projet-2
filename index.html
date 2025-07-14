@@ -31,17 +31,17 @@
       </header>
       <main>
         <div class="Recherche">
-          <h1>Trouvez votre hébergement pour des vacances de reve</h1>
-          <p>En plein centre ville ou en pleine nature</p>
-          <form action="get">
+          <div class="Mot en tete">
+            <h2>Trouvez votre hébergement pour des vacances de reve</h2>
+            <span>En plein centre ville ou en pleine nature</span>
+          </div>
+
+          <form class="modifrecherche" action="get">
             <button type="button" class="geo-button" onclick="Geolocation()">
-              <img
-                src="/images/logo/location-dot-solid.svg"
-                alt="Geolocalisation"
-              />
+              <img src="/images/logo/Vector.png" alt="Geolocalisation" />
             </button>
             <input type="search" placeholder="Marseille, France" />
-            <button type="submit">Rechercher</button>
+            <button class="btn" type="submit">Rechercher</button>
           </form>
         </div>
         <div class="filtre">
