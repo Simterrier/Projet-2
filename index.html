@@ -33,8 +33,14 @@
         <div class="Recherche">
           <h1>Trouvez votre hébergement pour des vacances de reve</h1>
           <p>En plein centre ville ou en pleine nature</p>
-          <form action="#" method="get">
-            <imput type="text" name="rechercher" aria-placeholder="Rechercher"">
+          <form action="get">
+            <button type="button" class="geo-button" onclick="Geolocation()">
+              <img
+                src="/images/logo/location-dot-solid.svg"
+                alt="Geolocalisation"
+              />
+            </button>
+            <input type="search" placeholder="Marseille, France" />
             <button type="submit">Rechercher</button>
           </form>
         </div>
@@ -374,7 +380,6 @@
           <section class="Activités">
             <div class="activités-title">
               <h2 class="section-title">Activités à Marseille</h2>
-              <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
             </div>
             <div class="activités-cards">
               <a href="#">
