@@ -376,16 +376,16 @@ h3 {
 .hebergements-and-populaires {
     margin-bottom: 30px;
 }
-/*  POUR LIEN
+
 .afficher-plus {
   display: inline-block;
   font-size: 18px; 
   font-weight: 700;
   text-decoration: none; 
-  color: inherit; 
+  color: black; 
   cursor: pointer; 
-  transition: color 0.2s ease;
-} */
+  
+} 
 
 
 /*activité*/
@@ -440,4 +440,39 @@ font-weight: 700;
 .activités-title h2 {
     margin-bottom: 30px    ;
     
+}
+
+/* A propos*/
+
+footer {
+     background-color: var(--main-bg-color);
+    
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.pied-de-page {
+    display: flex;
+  justify-content: space-between;
+  margin-right: 280px;
+}
+
+;.pied-de-page h3 {
+    font-size: 18px;
+    font-weight: 700;
+   ;
+}
+.pied-de-page ul {
+    list-style-type: none;
+}
+.pied-de-page div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+.pied-de-page ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
