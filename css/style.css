@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0  ;
+    padding: 0;
 }
 
 :root {
@@ -108,13 +110,16 @@ a {
     box-sizing: border-box;
 }
 
-.populaires-cards .card-title {
+.card-title {
     margin-top: 10px;
     margin-bottom: 4px;
 }
 
-.populaires-cards .card-subtitle {
+.card-subtitle {
     margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+   
 }
 
 .populaires-cards .card-rating {
@@ -204,9 +209,11 @@ a:hover::before {
 
 
 h2 {
-    margin: 0;
+   
     display: flex;
     margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 span {
@@ -327,14 +334,41 @@ font-weight: 700    ;}
 }
 
 
+/*herbergements*/
+
+
 
 
 .hebergements img {
     width: 250.33px;
     height: 124px;
+    border-radius: 20px 20px 0px 0px;
 }
 
-.herbergements-cards {
+
+.hébergements-cards {
+   
+    opacity: 1;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 20px;
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+   
+    
+}
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+/*  POUR LIEN CLIQUABLE
+.afficher-plus {
+  display: inline-block;
+  font-size: 18px; 
+  font-weight: 700;
+  text-decoration: none; 
+  color: inherit; 
+  cursor: pointer; 
+  transition: color 0.2s ease;
 }
