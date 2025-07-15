@@ -169,8 +169,17 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .modifrecherche .btn .icon {
+    display: inline-block;
+  }
+
+  .modifrecherche .btn .text {
+    display: none;
+  }
 }
+
+
+
 
 
 /*rajout premier jet header*/
@@ -181,12 +190,18 @@ header {
     margin-bottom: 35px;
 }
 
-header img {height: 19px;padding: 30px 50px 30px 50px;}
+header img {height: 79px;
+    padding: 30px 50px 30px 50px;
+    width: 161.09px;
+    
+}
 
 header ul {
     display: flex;
     list-style-type: none;
     gap: 68px;
+    font-size: 16px;
+    font-weight: 400;
 }
 a:hover {color: #0065FC;}
 
@@ -219,6 +234,7 @@ h2 {
 
 .Mot.en.tete span {
     font-size: 16px;
+    font-weight: 400;
     display: flex;
     margin-bottom: 24px;
 }
@@ -229,7 +245,7 @@ form.modifrecherche {
 
 button.geo-button {
     border: 1px solid  #F2F2F2;
-    border-color: #F2F2F2;
+    
     border-radius: 15px 0px 0px 15px;
     width: 50px;
     height: 49px;
@@ -240,6 +256,9 @@ input[type="search"]::placeholder {color: black;
 font-weight: 700;
 font-size: 18px;
 text-align: center;
+width: 100%;
+
+
 }
 
 button {
@@ -254,6 +273,7 @@ button.btn {
     color: white;
     font-weight: 700 ;
     font-size: 18px;
+    width: 150px;
     }
    
     
@@ -263,6 +283,14 @@ button.btn {
     border-color: #F2F2F2;}
 
     
+.modifrecherche .btn .icon {
+  display: none; /* Par défaut on cache la loupe */
+  width: 20px;
+  height: 20px;
+  margin-left: 8px; 
+  vertical-align: middle;
+}
+
 
 
 /*filtre*/
