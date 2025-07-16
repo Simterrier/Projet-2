@@ -633,9 +633,15 @@ padding-left: 10px;
      .activités-cards a {
         width: 100%;
        
-       
     }
-      
+    .activités-cards .card {
+        height: 200px;
+    }
 
+    .pied-de-page {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
    
 }
