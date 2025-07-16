@@ -245,14 +245,16 @@ h2 {
 
 form.modifrecherche {
     display: flex;
+    align-items: center;
+   
 }
 
 button.geo-button {
     border: 1px solid  #F2F2F2;
-    
     border-radius: 15px 0px 0px 15px;
     width: 50px;
     height: 49px;
+    cursor: pointer;
 }
 
 
@@ -263,24 +265,29 @@ text-align: center;
 
 }
 
-/*avec input"text" a la place de search le texte est bien centré, mais ici meme en regardant si il y a des paddings je ne trouve pas comment le centrer mieux*/
 
 input[type="search"] {
     border: 1px solid #F2F2F2;
-    width: 14%;
     font-weight: 700;
-font-size: 18px;
-text-align: center;
-
-outline: none;   /* enleve la bordure autour du search*/
-/* -webkit-appearance: none;  -> pour enlever la croix mais ne fonctionne pas */
+    font-size: 18px;
+    text-align: center;
+    width: 195px;
+    height: 49px;
+    outline: none;   /*enleve la bordure autour du search*/  
 }
 
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
 
 button {
     border: 1px solid #0065fc;
-    border-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
+    width: 132px;
+    cursor: pointer;
 }
 button.btn {
     background-color: #0065FC;
@@ -289,12 +296,11 @@ button.btn {
     color: white;
     font-weight: 700 ;
     font-size: 18px;
-    width: 150px;
+    
     }
    
     
    
-
     
 .modifrecherche .btn .icon {
   display: none; /* Par défaut on cache la loupe */
@@ -430,7 +436,12 @@ h3 {
 }
 
 
-/*activité*/
+/*activités*/
+
+.activités-title h2 {
+    margin-bottom: 30px    ;
+    
+}
 
 .Activités {
     background-color: white;
@@ -447,16 +458,15 @@ h3 {
    
 }
 .activités-cards .card {
-    
-
 height: 439px;
 padding: 0;
 
 }
+
 .activités-cards img {
     
     width: 100%;
-    height: 380px;
+    height: 87%;
     border-radius: 20px 20px 0px 0px;
     
 }
@@ -464,25 +474,21 @@ padding: 0;
 .activités-cards h3 {
 font-size: 16px;
 font-weight: 700;
+
 }
 
-img.portrait {
+/*meilleure solution a chercher*/
+
+/*img.portrait {
     min-width: 300px;
-}
+}*/
 
-.activités-cards h3 {
-font-size: 16px;
-font-weight: 700;
 
-}
 
 .activités-cards .card-content {
     padding-left: 15px;
 }
-.activités-title h2 {
-    margin-bottom: 30px    ;
-    
-}
+
 
 /* A propos*/
 
