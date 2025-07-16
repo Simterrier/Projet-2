@@ -331,10 +331,10 @@ form.Filtre {
 
 
 .Filtre label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  opacity: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    opacity: 1;
     border-width: 2px;
     gap: 10px;
     border-radius: 35px;
@@ -375,6 +375,7 @@ font-weight: 700    ;}
 
 .infobar {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -383,6 +384,7 @@ font-weight: 700    ;}
 .infobar span {
     font-weight: 400;
     font-size: 16px;
+        
 }
 
 
