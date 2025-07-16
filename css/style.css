@@ -187,12 +187,14 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
-header img {height: 79px;
-    padding: 30px 50px 30px 50px;
-    width: 161.09px;
+header img {
+    height: 19px;
+    display: flex;
+    margin-top: 50px;
+    
     
 }
 
@@ -202,7 +204,9 @@ header ul {
     gap: 68px;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 34px;
 }
+
 a:hover {color: #0065FC;}
 
 
@@ -214,7 +218,7 @@ header a {
 header a::before {
     content: "";            /* ajut d'un pseudo element*/
     position: absolute;
-    top: 0;
+    top: -34px;
     width: 100%;
     height: 2px;
     background-color: #0065FC;
