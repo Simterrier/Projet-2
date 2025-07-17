@@ -96,7 +96,7 @@ header a {
 }
 
 header a::before {
-    content: "FEFZEF";            /* ajut d'un pseudo element*/
+    content: "";            /* ajut d'un pseudo element*/
     position: absolute;
     top: -34px;
     width: 100%;
@@ -389,7 +389,7 @@ background-color: #DEEBFF
 }
 
 .Activités {
-    background-color:rgb(51, 19, 19);
+    background-color:rgb(255, 255, 255);
     padding: 30px;
 }
 
@@ -586,10 +586,11 @@ header a::before {
   }
 
   form.Filtre {
+    max-width: 335px;
     flex-wrap: wrap;
     margin-top: 20px;
-    gap: 20px;
-    justify-content: center;
+    gap: 10px;
+    
   }
 
 
@@ -604,10 +605,10 @@ header a::before {
     width: 237px;
   }
 
- 
 
   .Filtre label {
     width: 162.5px;
+    
   }
 
   .Filtre span {
@@ -628,7 +629,7 @@ header a::before {
   }
 
   .hebergements-and-populaires .hebergements {
-    background-color: rgb(97, 45, 45);
+    background-color: white;
     
   }
 
@@ -647,6 +648,9 @@ header a::before {
     width: 100%;
   }
 
+.hebergements-cards {
+    margin-bottom: 15px;
+}
 
   .hebergements-cards a {
     width: 100%;
@@ -703,8 +707,7 @@ header a::before {
 
 footer {
     margin-top: 30px;
-    padding-bottom: 0;
-    padding-top: 0;
+    padding: 0px 30px 0px 30px ;
 }
 
   .pied-de-page {
