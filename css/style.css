@@ -577,10 +577,15 @@ header a::before {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    
   }
   
+.infobar,
+.modifrecherche,
+.Mot.en.tete {
+    max-width: 335px;
+}
 
+  
   section.zone-filtre {
     display: block;
   }
