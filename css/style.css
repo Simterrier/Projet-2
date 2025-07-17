@@ -196,7 +196,7 @@ form.Filtre {
 }
 
 
-section.zone-filtre {
+div.zone-filtre {
 display: flex;
 gap: 10px;
 align-items: center;
@@ -572,6 +572,8 @@ header a::before {
     width: 200%;
   }
 
+ 
+
   section.zonecherchable {
     display: flex;
     align-items: center;
@@ -586,7 +588,7 @@ header a::before {
 }
 
   
-  section.zone-filtre {
+  div.zone-filtre {
     display: block;
   }
 
