@@ -92,20 +92,20 @@ a:hover {color: #0065FC;}
 /* barre bleue sur les liens en haut */
 
 header a {
-    position: relative;  /*position relative pour servir de conteneur*/
+    position: relative;  
 }
 
 header a::before {
-    content: "";            /* ajut d'un pseudo element*/
+    content: "";            
     position: absolute;
     top: -34px;
     width: 100%;
     height: 2px;
     background-color: #0065FC;
-    transform: scale(0);    /* -> cache l'element par defaut*/
+    transform: scale(0);    
 }
 
-header a:hover::before {       /* -> affiche l'element au survol*/
+header a:hover::before {       
     transform: scale(1);
 }
 
