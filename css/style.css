@@ -654,6 +654,10 @@ form.modifrecherche {
     font-size: 14px;
   }
 
+  .infobar {
+    margin-bottom: 0;
+  }
+
   .hebergements-and-populaires {
         flex-direction: column-reverse;
   }
@@ -676,13 +680,14 @@ form.modifrecherche {
 
   .populaires {
     width: 100%;
-    margin-top: 50px; 
+    margin-top: 40px; 
     margin-bottom: 15px;
   }
 
   .populaires-cards {
     display: flex;
     flex-direction: column;
+    
   }
 
   .populaires-cards a {
