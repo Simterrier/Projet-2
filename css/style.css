@@ -4,6 +4,7 @@
     margin: 0  ;
     padding: 0;
     box-sizing: border-box;
+    /* border: red solid 1px;  */
 }
 
 :root {
@@ -225,7 +226,7 @@ align-items: center;
 }
 
 .Filtre label:hover {
-background-color: #DEEBFF
+background-color: #ffffff
 }
 
 .Filtre input[type="radio"] {
@@ -389,7 +390,7 @@ background-color: #DEEBFF
 }
 
 .Activités {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(94, 38, 38);
     padding: 30px;
 }
 
