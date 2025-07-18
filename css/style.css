@@ -542,7 +542,10 @@ footer {
   .modifrecherche .btn .text {
     display: none;
   }
-
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
   .main-container {
     width: 100%;
     padding: 0;
@@ -597,44 +600,53 @@ header a::before {
   section.zonecherchable {
     display: flex;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    gap: 30px;
   }
   
-.infobar,
-.modifrecherche,
-.Mot.en.tete {
-    max-width: 335px;
+.Mot.en.tete span {
+    margin-bottom: 0;
 }
 
-  
+
+
+.Recherche {
+    width: 100%;
+}
+
+  button.geo-button {
+    width: 17.5%;
+  }
+
+  button.btn {
+    width: 17.5%;
+    border-radius: 15px 16px 15px 16px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-left: -14px;
+  }
+
+  input[type="search"] {
+    border-right: none;
+    width: 70%;
+  }
+
+
   div.zone-filtre {
     display: block;
   }
 
   form.Filtre {
-    max-width: 335px;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
     margin-top: 20px;
     gap: 10px;
+    justify-content: space-between;
     
   }
 
 
-  button.btn {
-    width: 49px;
-    border-radius: 15px 16px 15px 16px;
-    box-shadow: 0px 4px 4px 0px #00000040;
-  }
-
-  input[type="search"] {
-    border-right: none;
-    width: 237px;
-  }
 
 
   .Filtre label {
-    width: 162.5px;
+    width: 48%;
     
   }
 
@@ -653,6 +665,8 @@ header a::before {
 
   .hebergements-and-populaires section {
     border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .hebergements-and-populaires .hebergements {
@@ -708,7 +722,10 @@ header a::before {
     margin-bottom: 4px;
   }
 
-
+.Activités {
+    padding-left: 10px;
+    padding-right: 10px;
+}
   .activités-cards {
     display: flex;
     flex-direction: column;
