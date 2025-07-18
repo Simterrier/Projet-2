@@ -542,10 +542,7 @@ footer {
   .modifrecherche .btn .text {
     display: none;
   }
-main {
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
   .main-container {
     width: 100%;
     padding: 0;
@@ -601,6 +598,8 @@ header a::before {
     display: flex;
     align-items: center;
     gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
 .Mot.en.tete span {
@@ -610,15 +609,19 @@ header a::before {
 
 
 .Recherche {
-    width: 100%;
+    width: 103%;
+}
+
+form.modifrecherche {
+    justify-content: center;
 }
 
   button.geo-button {
-    width: 17.5%;
+    width: 15%;
   }
 
   button.btn {
-    width: 17.5%;
+    width: 15%;
     border-radius: 15px 16px 15px 16px;
     box-shadow: 0px 4px 4px 0px #00000040;
     margin-left: -14px;
@@ -642,9 +645,6 @@ header a::before {
     
   }
 
-
-
-
   .Filtre label {
     width: 48%;
     
@@ -665,8 +665,8 @@ header a::before {
 
   .hebergements-and-populaires section {
     border-radius: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .hebergements-and-populaires .hebergements {
@@ -723,8 +723,8 @@ header a::before {
   }
 
 .Activités {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
   .activités-cards {
     display: flex;
@@ -751,7 +751,7 @@ header a::before {
 
 footer {
     margin-top: 30px;
-    padding: 0px 30px 0px 30px ;
+    padding: 0px 20px 0px 20px ;
 }
 
   .pied-de-page {
