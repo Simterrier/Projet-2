@@ -71,13 +71,13 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 header img {
     height: 19px;
     display: flex;
-    margin-top: 35px;
+    margin-top: 30px;
     width: 5.5%;
 }
 
@@ -87,7 +87,15 @@ header ul {
     gap: 68px;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 19px;
+}
+
+header li {
+    padding-top: 11px;
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+li:hover{
+    border-top-color: #0065FC;
 }
 
 a:hover {color: #0065FC;}
