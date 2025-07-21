@@ -139,13 +139,13 @@ button.geo-button {
     cursor: pointer;
 }
 
-input[type="search"]::placeholder {color: black;
+input[type="text"]::placeholder {color: black;
 font-weight: 700;
 font-size: 18px;
 text-align: center;
 }
 
-input[type="search"] {
+input[type="text"] {
     border: 1px solid #F2F2F2;
     font-weight: 700;
     font-size: 18px;
@@ -155,12 +155,7 @@ input[type="search"] {
     outline: none;   /*enleve la bordure autour du search*/  
 }
 
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
+
 
 button.btn {
     border: 1px solid #0065fc;
@@ -225,7 +220,7 @@ align-items: center;
 }
 
 .Filtre label:hover {
-background-color: #ffffff
+background-color: #DEEBFF
 }
 
 .Filtre input[type="radio"] {
@@ -445,6 +440,8 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-right: 280px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .pied-de-page h3 {
@@ -627,7 +624,7 @@ form.modifrecherche {
     margin-left: -14px;
   }
 
-  input[type="search"] {
+  input[type="text"] {
     border-right: none;
     width: 70%;
   }
@@ -763,8 +760,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .pied-de-page ul {
