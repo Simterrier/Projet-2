@@ -72,11 +72,13 @@ header {
 }
 
 header img {
-    height: 19px;
     display: flex;
     margin-top: 30px;
     width: 5.5%;
 }
+
+
+
 
 header ul {
     display: flex;
@@ -96,7 +98,7 @@ li:hover{
     border-top-color: #0065FC;
 }
 
-a:hover {color: #0065FC;}
+a:hover {color: var(--main-bg-color)}
 
 h2 {
     display: flex;
@@ -289,8 +291,7 @@ background-color: #DEEBFF
 }
 
 .hebergements-cards .card {
-    width: 250.33px;
-    height: 207.25px;
+    width: 100%;
 }
 
 .afficher-plus {
@@ -371,10 +372,17 @@ background-color: #DEEBFF
 .activités-cards {
     display: flex;
     gap: 30px;
+    width: 100%;
+}
+
+
+.activités-cards a {
+    width: 25%;
 }
 
 .activités-cards .card {
-height: 439px;
+height:100%;
+
 padding: 0;
 display: flex;
 flex-direction: column;
@@ -388,7 +396,7 @@ flex-direction: column;
 }
 
 .activités-cards .portrait {
-    min-width: 297.5px;
+    
 }
 
 .activités-cards h3 {
