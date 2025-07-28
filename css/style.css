@@ -109,7 +109,7 @@ h1 {
     font-weight: 700;
 }
 
-.Main-title span {
+.main-title span {
     font-size: 16px;
     font-weight: 400;
     display: flex;
@@ -171,7 +171,7 @@ section.searchzone {
     flex-direction: column;
 }
  
-form.Filtre {
+form.filtre {
     display: flex;
     gap: 10px;
 }
@@ -188,7 +188,7 @@ align-items: center;
     font-size: 17px;
 }
 
-.Filtre label {
+.filtre label {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -204,26 +204,23 @@ align-items: center;
     height: 50px;
 }
 
-.Filtre label:hover {
+.filtre label:hover {
 background-color: var(--filter-bg-color)
 }
 
-.Filtre input[type="radio"] {
+.filtre input[type="radio"] {
   display: none;
 }
 
-.Filtre span {
+.filtre span {
     margin-bottom: 0;
     font-weight: 700;
     font-size: 17px;
 }
 
+
 .infobar {
     margin-bottom: 40px;
-}
-
-
-.infobar {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -369,7 +366,7 @@ background-color: var(--filter-bg-color)
     margin-bottom: 30px    ;
 }
 
-.Activités {
+.activités {
     background-color:rgb(255, 255, 255);
     padding: 30px;
 }
@@ -400,9 +397,6 @@ flex-direction: column;
     object-fit: cover;
 }
 
-.activités-cards .portrait {
-    
-}
 
 .activités-cards h3 {
 font-size: 16px;
@@ -538,7 +532,7 @@ footer {
 
 
 
-    .Activités {
+    .activités {
         padding-bottom: 0;
     }
 
@@ -647,13 +641,13 @@ footer {
         padding-right: 20px;
     }
   
-    .Mot.en.tete span {
+    .main-title span {
         margin-bottom: 0;
     }
 
 
 
-    .Search {
+    .search {
         width: 103%;
     }
 
@@ -684,18 +678,18 @@ footer {
         display: block;
     }
 
-    form.Filtre {
+    form.filtre {
         flex-wrap: wrap;
         margin-top: 20px;
         gap: 10px;
         justify-content: space-between; 
     }
 
-    .Filtre label {
+    .filtre label {
         width: 48%;  
     }
 
-    .Filtre span {
+    .filtre span {
         font-size: 14px;
     }
 
@@ -775,7 +769,14 @@ footer {
 
     }
 
-    .Activités {
+
+
+
+
+
+
+
+    .activités {
         padding-left: 30px;
         padding-right: 30px;
     }
