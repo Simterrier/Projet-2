@@ -101,7 +101,8 @@ a:hover {
     color: var(--main-color) 
 }
 
-h2 {
+h2,
+h1 {
     display: flex;
     margin-bottom: 8px;
     font-size: 22px;
