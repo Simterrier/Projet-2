@@ -109,7 +109,7 @@ h1 {
     font-weight: 700;
 }
 
-.Mot-en-tete span {
+.Main-title span {
     font-size: 16px;
     font-weight: 400;
     display: flex;
@@ -176,13 +176,13 @@ form.Filtre {
     gap: 10px;
 }
 
-div.zone-filtre {
+div.filter-area {
 display: flex;
 gap: 15px;
 align-items: center;
 }
 
-.zone-filtre p {
+.filter-area p {
     margin-bottom: 0;
     font-weight: 700;
     font-size: 17px;
@@ -427,7 +427,7 @@ footer {
     margin-top: 40px;
 }
 
-.pied-de-page {
+.liens-utile {
     display: flex;
     justify-content: space-between;
     margin-right: 304px;
@@ -435,18 +435,18 @@ footer {
     padding-bottom: 30px;
 }
 
-.pied-de-page h3 {
+.liens-utile h3 {
     font-size: 18px;
     font-weight: 700;
 }
 
-.pied-de-page div {
+.liens-utile div {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.pied-de-page ul {
+.liens-utile ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -469,7 +469,7 @@ footer {
         width: 22%;
     }
 
-    div.zone-filtre {
+    div.filter-area {
         flex-direction: column;
         gap: 20px;
         align-items: normal;
@@ -568,7 +568,7 @@ footer {
 
 
 
-    .pied-de-page {
+    .liens-utile {
         margin-right: 140px;
     }
 
@@ -653,7 +653,7 @@ footer {
 
 
 
-    .Recherche {
+    .Search {
         width: 103%;
     }
 
@@ -680,7 +680,7 @@ footer {
 
 
 
-    div.zone-filtre {
+    div.filter-area {
         display: block;
     }
 
@@ -810,7 +810,7 @@ footer {
         padding: 0px 20px 0px 20px ;
     }
 
-    .pied-de-page {
+    .liens-utile {
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -818,7 +818,7 @@ footer {
         padding-bottom: 30px;
     }
 
-    .pied-de-page ul {
+    .liens-utile ul {
         gap: 15px;
     }
 }
