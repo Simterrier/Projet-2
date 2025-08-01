@@ -416,7 +416,7 @@ footer {
     margin-top: 40px;
 }
 
-.liens-utile {
+.useful-links {
     display: flex;
     justify-content: space-between;
     margin-right: 304px;
@@ -424,18 +424,18 @@ footer {
     padding-bottom: 30px;
 }
 
-.liens-utile h3 {
+.useful-links h3 {
     font-size: 18px;
     font-weight: 700;
 }
 
-.liens-utile div {
+.useful-links div {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.liens-utile ul {
+.useful-links ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -544,7 +544,7 @@ footer {
 
 
 
-    .liens-utile {
+    .useful-links {
         margin-right: 140px;
     }
 
@@ -751,10 +751,6 @@ footer {
 
 
 
-
-
-
-
     .activités {
         padding-left: 30px;
         padding-right: 30px;
@@ -790,7 +786,7 @@ footer {
         padding: 0px 20px 0px 20px ;
     }
 
-    .liens-utile {
+    .useful-links {
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -798,7 +794,7 @@ footer {
         padding-bottom: 30px;
     }
 
-    .liens-utile ul {
+    .useful-links ul {
         gap: 15px;
     }
 }
